@@ -26,9 +26,9 @@ def user_login(request):
                     login(request,user)
                     return redirect('/')
                 else:
-                    messages.info(request,'Kullanıcı aktif değil')
+                    messages.info(request,'Login Successful')
             else:
-                messages.info(request,'Giriş bilgilerinizi kontrol ediniz')
+                messages.info(request,'Failed to login')
 
     else:
         form=LoginForm()
