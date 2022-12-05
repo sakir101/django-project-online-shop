@@ -1,4 +1,4 @@
-# E-Commerce Project For Baby Tools
+# E-Commerce Project
 ### TECHNOLOGIES
 - Python
 - Django
